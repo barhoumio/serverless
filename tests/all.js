@@ -13,6 +13,7 @@ require('./classes/CLI');
 require('../lib/plugins/create/tests/create');
 require('../lib/plugins/deploy/tests/deploy');
 require('../lib/plugins/invoke/tests/invoke');
+require('../lib/plugins/logs/tests/logs');
 require('../lib/plugins/remove/tests/remove');
 require('../lib/plugins/package/tests/all');
 require('../lib/plugins/tracking/tests/tracking');
@@ -20,6 +21,7 @@ require('../lib/plugins/tracking/tests/tracking');
 // AWS Plugins Tests
 require('../lib/plugins/aws/tests');
 require('../lib/plugins/aws/invoke/tests');
+require('../lib/plugins/aws/logs/tests');
 require('../lib/plugins/aws/remove/tests/all');
 require('../lib/plugins/aws/deploy/tests/all');
 require('../lib/plugins/aws/deploy/compile/functions/tests');
